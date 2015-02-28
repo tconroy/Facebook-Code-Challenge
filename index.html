@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" content="">
+  <title>Coding Challenge | Thomas Conroy | Facebook</title>
+  <link type="stylesheet" rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav><a href="#">facebook</a></nav>
+  <div class="wrapper clearfix">
+    <section id="timeline"></section>
+    <div id="calContainer">
+      <section id="calendar"></section>
+    </div>
+  </div>
+  <footer>
+    <script type="text/javascript" src="lib/react-0.12.2.js"></script>
+    <script type="text/javascript" src="build/Main.js"></script>
+    <script>
+      function layOutDay(events) {
+        cal.setState( {calEvents: events} );
+      }
+    </script>
+  </footer>
+</body>
+</html>
